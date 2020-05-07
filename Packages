@@ -1,31 +1,45 @@
-Architecture: iphoneos-arm
-Package: com.spark.libpackageinfo
-Name: libpackageinfo (SparkDev)
-Version: 1.1.4
-Description: Library to retrieve package information
-Section: Utilities
-Depends: firmware (>=11.0)
-Conflicts: jp.ashikase.libpackageinfo, cokepokes.jp.ashikase.libpackageinfo
-Replaces: jp.ashikase.libpackageinfo, cokepokes.jp.ashikase.libpackageinfo
-Provides: jp.ashikase.libpackageinfo, cokepokes.jp.ashikase.libpackageinfo
-Author: Revulate <revulate1@gmail.com>
-Maintainer: Revulate <revulate1@gmail.com>
-Filename: ./debs/com.spark.libpackageinfo_1.1.4_iphoneos-arm.deb
-Size: 49748
-MD5sum: 2ba2a0c174f234188e111aa43161e827
-SHA256: 15466caca3d0e9685097461e889274469613f7493a4ac2c0c358ea87abaf7475
-
 Package: me.nepeta.relocate
-Name: Relocate
-Depends: firmware (>= 11.0), mobilesubstrate, ws.hbang.common (>= 1.11), applist
-Architecture: iphoneos-arm
-Description: Minimalist GPS spoofer (free)
-Maintainer: Nepeta
-Author: Nepeta
 Section: Tweaks
-Version: 0.1.10
-Filename: ./debs/me.nepeta.relocate_0.1.10_iphoneos-arm.deb
-Size: 93464
-MD5sum: 058b8df6958ea76f880a1431b509dc83
-SHA256: 97fca1e2344a7b2d329a3eaa0c98cfc2e8ec0e414646cb88a674c93fcf74ce71
+Installed-Size: 552
+Maintainer: Nepeta
+Architecture: iphoneos-arm
+Version: 0.1.11
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 11.0), applist, com.rpetrich.rocketbootstrap (>= 0.1.7)
+Description: Minimalist GPS spoofer (free)
+Name: Relocate
+Author: Nepeta
+Filename: ./debs/me.nepeta.relocate_0.1.11_iphoneos-arm.deb
+Size: 143548
+MD5sum: cf3fa14d5285e09b872e83ff1917d622
+SHA256: 7172915ad52554cb8eb24c8a3d1eb13b7a18ae63eb6ce91898a4e09f766f6b12
+
+Package: me.nepeta.relocateapp
+Section: Utilities
+Installed-Size: 404
+Maintainer: Nepeta
+Architecture: iphoneos-arm
+Version: 0.1.0
+Depends: firmware (>= 9.0), me.nepeta.relocate
+Description: Application for Relocate
+Name: Relocate Application
+Author: Nepeta
+Filename: ./debs/me.nepeta.relocateapp_0.1.0_iphoneos-arm.deb
+Size: 126032
+MD5sum: d86b7619373762db61f83e927e5b4a66
+SHA256: bbcb2917331a55d3b6fb1c80e67bf232c2a511707b1360d822836428f8ebd671
+
+Package: me.nepeta.relocatemodule
+Section: Tweaks
+Installed-Size: 168
+Maintainer: Nepeta <ominousness@protonmail.com>
+Architecture: iphoneos-arm
+Version: 0.1.1
+Depends: mobilesubstrate, com.opa334.ccsupport, ws.hbang.common (>= 1.11), firmware (>= 11.0), me.nepeta.relocate (>= 0.1.7)
+Description: CC toggle for Relocate (GPS location spoofer).
+Name: Relocate Module (Control Center)
+Author: Nepeta <ominousness@protonmail.com>
+Filename: ./debs/me.nepeta.relocatemodule_0.1.1_iphoneos-arm.deb
+Size: 33402
+MD5sum: 02596f7ba3c078c7f44bedac36f27139
+SHA256: 1c4f5a61e605df762729dbe30244a2f8cc0ace5e8060779241427655b55925c9
 
