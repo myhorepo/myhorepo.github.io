@@ -1,0 +1,31 @@
+Architecture: iphoneos-arm
+Package: com.spark.libpackageinfo
+Name: libpackageinfo (SparkDev)
+Version: 1.1.4
+Description: Library to retrieve package information
+Section: Utilities
+Depends: firmware (>=11.0)
+Conflicts: jp.ashikase.libpackageinfo, cokepokes.jp.ashikase.libpackageinfo
+Replaces: jp.ashikase.libpackageinfo, cokepokes.jp.ashikase.libpackageinfo
+Provides: jp.ashikase.libpackageinfo, cokepokes.jp.ashikase.libpackageinfo
+Author: Revulate <revulate1@gmail.com>
+Maintainer: Revulate <revulate1@gmail.com>
+Filename: ./debs/com.spark.libpackageinfo_1.1.4_iphoneos-arm.deb
+Size: 49748
+MD5sum: 2ba2a0c174f234188e111aa43161e827
+SHA256: 15466caca3d0e9685097461e889274469613f7493a4ac2c0c358ea87abaf7475
+
+Package: me.nepeta.relocate
+Name: Relocate
+Depends: firmware (>= 11.0), mobilesubstrate, ws.hbang.common (>= 1.11), applist
+Architecture: iphoneos-arm
+Description: Minimalist GPS spoofer (free)
+Maintainer: Nepeta
+Author: Nepeta
+Section: Tweaks
+Version: 0.1.10
+Filename: ./debs/me.nepeta.relocate_0.1.10_iphoneos-arm.deb
+Size: 93464
+MD5sum: 058b8df6958ea76f880a1431b509dc83
+SHA256: 97fca1e2344a7b2d329a3eaa0c98cfc2e8ec0e414646cb88a674c93fcf74ce71
+
