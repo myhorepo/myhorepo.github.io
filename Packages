@@ -1,3 +1,25 @@
+Package: com.spark.libpackageinfo
+Section: Utilities
+Maintainer: Revulate <revulate1@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.1.4
+Replaces: jp.ashikase.libpackageinfo, cokepokes.jp.ashikase.libpackageinfo
+Provides: jp.ashikase.libpackageinfo, cokepokes.jp.ashikase.libpackageinfo
+Depends: firmware (>= 11.0), firmware (>= 11.0)
+Conflicts: jp.ashikase.libpackageinfo, cokepokes.jp.ashikase.libpackageinfo
+Description: Library to retrieve package information.
+Name: libpackageinfo (SparkDev)
+Depiction: https://revulate.dev/depiction/web/com.spark.libpackageinfo.html
+SileoDepiction: https://revulate.dev/depiction/native/com.spark.libpackageinfo.json
+ModernDepiction: https://revulate.dev/depiction/native/com.spark.libpackageinfo.json
+Icon: https://revulate.dev/assets/com.spark.libpackageinfo/icon.png
+Homepage: https://revulate.dev
+Author: Revulate <revulate1@gmail.com>
+Filename: ./debs/com.spark.libpackageinfo_1.1.4_iphoneos-arm.deb
+Size: 90496
+MD5sum: aee375944dac39489d0503ba793af2c6
+SHA256: 00cd2e8e760acd4e9f46556bd44eea5c764b9c552a34e05a5b626044a2dae0ca
+
 Package: me.nepeta.relocate
 Section: Tweaks
 Installed-Size: 552
